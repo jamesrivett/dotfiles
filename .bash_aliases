@@ -3,6 +3,4 @@ alias dirs='dirs -v'
 
 alias gitcache='git config --global credential.helper cache'
 
-alias dprune='docker image rm `docker images -f "dangling=true" -q`'
-
 alias osync='onedrive --synchronize'
