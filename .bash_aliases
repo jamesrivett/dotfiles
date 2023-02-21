@@ -11,7 +11,6 @@ alias osync='onedrive --synchronize'
 
 looper () {
 	while sleep 1;
-	do;
-		$1;
+	do $1;
 	done;
 }
