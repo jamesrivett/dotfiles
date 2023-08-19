@@ -8,6 +8,8 @@ alias gitstash="git config credential.helper 'store'"
 
 alias osync='onedrive --synchronize'
 
+alias fnmode='echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode'
+
 
 looper () {
 	while sleep 1;
