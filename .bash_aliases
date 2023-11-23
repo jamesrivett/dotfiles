@@ -14,7 +14,7 @@ alias installDiscord='\
 
 
 megasearch () {
-	find / 2>&1 | grep $1;
+	find / 2>&1 | grep '$1';
 }
 
 looper () {
