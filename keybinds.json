@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "git.commit"
+    },
+    {
+        "key": "ctrl+g ctrl+s",
+        "command": "git.sync"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+g ctrl+f",
+        "command": "git.fetch"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+g ctrl+m",
+        "command": "workbench.scm.focus"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    }
+]
