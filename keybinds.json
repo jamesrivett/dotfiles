@@ -17,7 +17,7 @@
         "command": "git.fetch"
     },
     {
-        "key": "ctrl+alt+t",
+        "key": "alt+t",
         "command": "workbench.action.terminal.focus"
     },
     {
@@ -25,7 +25,7 @@
         "command": "workbench.scm.focus"
     },
     {
-        "key": "ctrl+alt+e",
+        "key": "alt+e",
         "command": "workbench.action.focusActiveEditorGroup"
     }
 ]
