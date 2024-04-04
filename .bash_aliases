@@ -28,3 +28,10 @@ gcp () {
 	git commit -m "$1" &&\
 	git push
 }
+
+compressMp4 () {
+	find . -iname '*.mp4' | xargs -I {} ffmpeg -i {} -b:v $1 {}.compressed.MP4;
+	for file in ./*.MP4*.MP4; do 
+		mv "$file" "${file%.MP4*.MP4}.compressed.MP4"; 
+	done
+}
