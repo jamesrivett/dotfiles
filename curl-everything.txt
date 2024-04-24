@@ -1,1 +1,0 @@
-curl -L tinyurl.com/jrivettvimrc > .vimrc; curl -L tinyurl.com/jrivettba > .bash_aliases && source .bash_aliases
