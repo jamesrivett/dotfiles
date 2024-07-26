@@ -35,3 +35,5 @@ compressMp4 () {
 		mv "$file" "${file%.MP4*.MP4}.compressed.MP4"; 
 	done
 }
+
+rmcarriage() { sed 's/\r//g' $1 | tee $1; }
