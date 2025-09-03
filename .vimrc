@@ -2,6 +2,7 @@ set tabstop=4
 set number
 set number relativenumber
 set nu rnu
+set background=dark
 
 nnoremap <C-z> u
 nnoremap <C-y> <c-r>
