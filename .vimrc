@@ -1,4 +1,4 @@
-set tabstop=4
+set tabstop=2 shiftwidth=2 expandtab
 set number
 set number relativenumber
 set nu rnu
