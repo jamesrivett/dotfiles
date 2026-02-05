@@ -1,6 +1,7 @@
 alias lst='ls -lah'
 alias dirs='dirs -v'
 alias lq='ls -lh'
+alias pss='powershell.exe'
 
 alias gitcache='git config --global credential.helper cache'
 
