@@ -25,7 +25,7 @@ looper () {
 }
 
 gcp () {
-	git add -Af &&\
+	git add . &&\
 	git commit -m "$1" &&\
 	git push
 }
